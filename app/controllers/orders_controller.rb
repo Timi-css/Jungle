@@ -46,6 +46,7 @@ class OrdersController < ApplicationController
       product = entry[:product]
       quantity = entry[:quantity]
       order.line_items.new(
+        # foregin key to link to the product table
         product: product,
         quantity: quantity,
         item_price: product.price,
