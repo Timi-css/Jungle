@@ -55,10 +55,8 @@ cat1.products.create!({
   description: "
   The Scented Blade is an extremely rare, tall plant and can be found mostly in savannas. It blooms once a year, for 2 weeks.
 It has thin, palmate leaves, which are usually lime green. It also grows small flowers, which can be dark blue, light gold and dark red.
-
 These plants grow in large groups, but it's fairly easy to control and maintain their growth.
 They can be eaten to relief a sore throat.
-
 As a defense mechanism the Scented Blade can collapse its flowers when it detects vibrations.
 They rely on animal pollination to reproduce. Once pollinated, they grow fairly large, delicious nuts.",
   image: open_asset('plante_2.jpg'),
@@ -198,7 +196,7 @@ cat3.products.create!({
   As a defense mechanism the Void Fennel has a thick, wooden stem.
   They rely on water currents to carry their seeds away to reproduce. Once pollinated, they grow fairly large, inedible fruits.",
   image: open_asset('plante_11.jpg'),
-  quantity: 2,
+  quantity: 0,
   price: 87.65
 })
 
@@ -213,7 +211,7 @@ cat3.products.create!({
   As a defense mechanism the Cliff Collard grows thick thorns.
   They rely on winds to carry their seeds away to reproduce. Once pollinated, they grow small, inedible fruits.",
   image: open_asset('plante_12.jpg'),
-  quantity: 23,
+  quantity: 0,
   price: 79.99
 })
 
