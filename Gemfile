@@ -26,6 +26,11 @@ gem 'sdoc', group: :doc
 # Use Active Model has_secure_password
 gem 'bcrypt', '~> 3.1.7'
 
+gem 'net-smtp'
+
+gem "cypress-rails"
+gem 'database_cleaner-active_record'
+
 # FontAwesome & Bootstrap Styling
 # gem 'bootstrap-sass', '~> 3.3.6'
 gem 'bootstrap', '~> 5.0.1'
